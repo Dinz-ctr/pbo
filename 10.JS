@@ -8,7 +8,7 @@ class Mobil {
 
     // Metode untuk menampilkan informasi mobil
     displayInfo() {
-        console.log('Mobil: ${this.merek} ${this.model} (${this.tahun})');
+        console.log(`Mobil: ${this.merek} ${this.model} (${this.tahun})`);
     }
 }
 
