@@ -6,10 +6,11 @@ class Mahasiswa {
   }
 
   belajar() {
-    console.log(${this.nama} sedang belajar.);
+   console.log(`${this.nama} sedang belajar.`);
   }
 }
 
 // Membuat objek dari class Mahasiswa
-const mhs1 = new Mahasiswa("Satura", "23012345", "Teknik Informatika");
+const mhs1 = new Mahasiswa("Fahri", "202401110034", "Teknik Informatika");
 mhs1.belajar();
+ 
